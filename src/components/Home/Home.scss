@@ -1,0 +1,46 @@
+.list-inline {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  .list-inline-item {
+    .btn-outline-info {
+      color: #5a606b;
+      border: 1px solid #5a606b;
+      margin-bottom: 10px;
+      border-radius: 20px;
+      font-weight: 500;
+
+      &:hover, &:active, &:focus {
+        color: #fff;
+        border-color: #fff;
+        background: transparent;
+        transition: all .3s ease;
+      }
+    }
+  }
+}
+
+.fa-play-circle {
+  font-size: 95px;
+  color: #f4c10f;
+  cursor: pointer;
+
+  &:hover {
+    color: #fff;
+    transition: all .3s ease;
+  }
+}
+
+.fa-arrow-alt-circle-right {
+  color: #f4c10f;
+  font-size: 40px;
+  font-weight: bolder;
+  cursor: pointer;
+
+  &:hover {
+    color: #fff;
+    transition: all .3s ease;
+  }
+}
